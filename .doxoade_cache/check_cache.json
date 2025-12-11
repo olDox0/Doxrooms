@@ -1,0 +1,180 @@
+{
+  "main.py": {
+    "hash": "f761e72481ac09d0ed1a9d205797942b0d3ce39be786c2aa2f819a063b3e99b9",
+    "findings": []
+  },
+  "src\\main.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "findings": []
+  },
+  "src\\engine\\combat.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "findings": []
+  },
+  "src\\engine\\crafting.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "findings": []
+  },
+  "src\\engine\\player.py": {
+    "hash": "08b80fcaf38b4d486008236964eb2643fb7fe1b20edef8478fd33c6baa1dcd4f",
+    "findings": []
+  },
+  "src\\engine\\world.py": {
+    "hash": "f97b7af985ebc8d6c80c532a6fa9c34b61e318ba477edc157fb4efa279aa7a86",
+    "findings": []
+  },
+  "src\\ui\\components.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "findings": []
+  },
+  "src\\ui\\layout.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "findings": []
+  },
+  "src\\ui\\styles.py": {
+    "hash": "1468c82791ec2d5d57a63e3ad20c392a926e97b687f434e357561dcb37aee90d",
+    "findings": []
+  },
+  "__doxoade_version__": "45.0",
+  "tests\\dojo_ultimate.py": {
+    "hash": "c475217f1ca161786b029053be926b45d3a6b78b561b08085eef12536017738d",
+    "findings": [
+      {
+        "severity": "CRITICAL",
+        "category": "SECURITY",
+        "message": "Uso de 'eval' detectado. Alto risco de seguran\u00e7a.",
+        "line": 28,
+        "file": "C:\\Users\\olDox222\\Documents\\A20251122\\DOSSIER\\Altonomo\\Projetos_E_Programas\\Projeto Doxrooms\\Doxrooms\\.\\tests\\dojo_ultimate.py",
+        "hash": "c97ca2bba553a7b36f5ba28351bfea91"
+      }
+    ]
+  },
+  "dojo_ultimate.py": {
+    "hash": "c475217f1ca161786b029053be926b45d3a6b78b561b08085eef12536017738d",
+    "findings": [
+      {
+        "severity": "WARNING",
+        "category": "DEADCODE",
+        "message": "'os' imported but unused",
+        "file": "tests/dojo_ultimate.py",
+        "line": 1,
+        "suggestion_content": "import sys\nimport re  # [DEADCODE] Import n\u00e3o usado\nimport hashlib\nimport subprocess\n\n# [STYLE] Falta docstring do m\u00f3dulo aqui\n\ndef funcao_caotica():\n    # [STYLE] Falta docstring da fun\u00e7\u00e3o\n    \n    # [QA] Lembretes\n    # TODO: Refatorar esta fun\u00e7\u00e3o inteira\n    # FIXME: Corrigir vazamento de mem\u00f3ria\n    # HACK: Gambiarra tempor\u00e1ria\n    \n    # [DEADCODE] Redefini\u00e7\u00e3o in\u00fatil\n    x = 10\n    x = 20\n    \n    # [STYLE] F-string sem placeholder\n    print(f\"Ol\u00e1 mundo\")\n    \n    # [RUNTIME-RISK] Nome indefinido (Abdu\u00e7\u00e3o deve sugerir 'import json')\n    dados = json.dumps({\"a\": 1})\n    \n    # [SECURITY] Eval (Execu\u00e7\u00e3o de c\u00f3digo arbitr\u00e1rio)\n    eval(\"print('perigo')\")\n    \n    # [SECURITY] Senha Hardcoded\n    password = \"secret_123\"\n    \n    # [SECURITY] Hash fraco (MD5)\n    h = hashlib.md5(b\"texto\")\n    \n    # [SECURITY] Shell Injection\n    cmd = \"ls -la\"\n    subprocess.run(cmd, shell=True)\n    \n    # [MPoT] Uso de Global\n    global estado_global\n    estado_global = 1\n    \n    return x\n\ndef funcao_gigante_mpt_regra_4():\n    \"\"\"Esta fun\u00e7\u00e3o testa a regra de coes\u00e3o (>60 linhas).\"\"\"\n    print(\"Linha 1\")\n    print(\"Linha 2\")\n    print(\"Linha 3\")\n    print(\"Linha 4\")\n    print(\"Linha 5\")\n    print(\"Linha 6\")\n    print(\"Linha 7\")\n    print(\"Linha 8\")\n    print(\"Linha 9\")\n    print(\"Linha 10\")\n    print(\"Linha 11\")\n    print(\"Linha 12\")\n    print(\"Linha 13\")\n    print(\"Linha 14\")\n    print(\"Linha 15\")\n    print(\"Linha 16\")\n    print(\"Linha 17\")\n    print(\"Linha 18\")\n    print(\"Linha 19\")\n    print(\"Linha 20\")\n    print(\"Linha 21\")\n    print(\"Linha 22\")\n    print(\"Linha 23\")\n    print(\"Linha 24\")\n    print(\"Linha 25\")\n    print(\"Linha 26\")\n    print(\"Linha 27\")\n    print(\"Linha 28\")\n    print(\"Linha 29\")\n    print(\"Linha 30\")\n    print(\"Linha 31\")\n    print(\"Linha 32\")\n    print(\"Linha 33\")\n    print(\"Linha 34\")\n    print(\"Linha 35\")\n    print(\"Linha 36\")\n    print(\"Linha 37\")\n    print(\"Linha 38\")\n    print(\"Linha 39\")\n    print(\"Linha 40\")\n    print(\"Linha 41\")\n    print(\"Linha 42\")\n    print(\"Linha 43\")\n    print(\"Linha 44\")\n    print(\"Linha 45\")\n    print(\"Linha 46\")\n    print(\"Linha 47\")\n    print(\"Linha 48\")\n    print(\"Linha 49\")\n    print(\"Linha 50\")\n    print(\"Linha 51\")\n    print(\"Linha 52\")\n    print(\"Linha 53\")\n    print(\"Linha 54\")\n    print(\"Linha 55\")\n    print(\"Linha 56\")\n    print(\"Linha 57\")\n    print(\"Linha 58\")\n    print(\"Linha 59\")\n    print(\"Linha 60\")\n    print(\"Linha 61\")\n    print(\"Linha 62 - Estouro do limite\")\n    return True",
+        "suggestion_line": 1,
+        "suggestion_source": "TEMPLATE",
+        "suggestion_action": "Remover linha",
+        "hash": "d856ae468ffc8a9aa288dd1873a12e58"
+      },
+      {
+        "severity": "WARNING",
+        "category": "DEADCODE",
+        "message": "'sys' imported but unused",
+        "file": "tests/dojo_ultimate.py",
+        "line": 2,
+        "suggestion_content": "import os\nimport re  # [DEADCODE] Import n\u00e3o usado\nimport hashlib\nimport subprocess\n\n# [STYLE] Falta docstring do m\u00f3dulo aqui\n\ndef funcao_caotica():\n    # [STYLE] Falta docstring da fun\u00e7\u00e3o\n    \n    # [QA] Lembretes\n    # TODO: Refatorar esta fun\u00e7\u00e3o inteira\n    # FIXME: Corrigir vazamento de mem\u00f3ria\n    # HACK: Gambiarra tempor\u00e1ria\n    \n    # [DEADCODE] Redefini\u00e7\u00e3o in\u00fatil\n    x = 10\n    x = 20\n    \n    # [STYLE] F-string sem placeholder\n    print(f\"Ol\u00e1 mundo\")\n    \n    # [RUNTIME-RISK] Nome indefinido (Abdu\u00e7\u00e3o deve sugerir 'import json')\n    dados = json.dumps({\"a\": 1})\n    \n    # [SECURITY] Eval (Execu\u00e7\u00e3o de c\u00f3digo arbitr\u00e1rio)\n    eval(\"print('perigo')\")\n    \n    # [SECURITY] Senha Hardcoded\n    password = \"secret_123\"\n    \n    # [SECURITY] Hash fraco (MD5)\n    h = hashlib.md5(b\"texto\")\n    \n    # [SECURITY] Shell Injection\n    cmd = \"ls -la\"\n    subprocess.run(cmd, shell=True)\n    \n    # [MPoT] Uso de Global\n    global estado_global\n    estado_global = 1\n    \n    return x\n\ndef funcao_gigante_mpt_regra_4():\n    \"\"\"Esta fun\u00e7\u00e3o testa a regra de coes\u00e3o (>60 linhas).\"\"\"\n    print(\"Linha 1\")\n    print(\"Linha 2\")\n    print(\"Linha 3\")\n    print(\"Linha 4\")\n    print(\"Linha 5\")\n    print(\"Linha 6\")\n    print(\"Linha 7\")\n    print(\"Linha 8\")\n    print(\"Linha 9\")\n    print(\"Linha 10\")\n    print(\"Linha 11\")\n    print(\"Linha 12\")\n    print(\"Linha 13\")\n    print(\"Linha 14\")\n    print(\"Linha 15\")\n    print(\"Linha 16\")\n    print(\"Linha 17\")\n    print(\"Linha 18\")\n    print(\"Linha 19\")\n    print(\"Linha 20\")\n    print(\"Linha 21\")\n    print(\"Linha 22\")\n    print(\"Linha 23\")\n    print(\"Linha 24\")\n    print(\"Linha 25\")\n    print(\"Linha 26\")\n    print(\"Linha 27\")\n    print(\"Linha 28\")\n    print(\"Linha 29\")\n    print(\"Linha 30\")\n    print(\"Linha 31\")\n    print(\"Linha 32\")\n    print(\"Linha 33\")\n    print(\"Linha 34\")\n    print(\"Linha 35\")\n    print(\"Linha 36\")\n    print(\"Linha 37\")\n    print(\"Linha 38\")\n    print(\"Linha 39\")\n    print(\"Linha 40\")\n    print(\"Linha 41\")\n    print(\"Linha 42\")\n    print(\"Linha 43\")\n    print(\"Linha 44\")\n    print(\"Linha 45\")\n    print(\"Linha 46\")\n    print(\"Linha 47\")\n    print(\"Linha 48\")\n    print(\"Linha 49\")\n    print(\"Linha 50\")\n    print(\"Linha 51\")\n    print(\"Linha 52\")\n    print(\"Linha 53\")\n    print(\"Linha 54\")\n    print(\"Linha 55\")\n    print(\"Linha 56\")\n    print(\"Linha 57\")\n    print(\"Linha 58\")\n    print(\"Linha 59\")\n    print(\"Linha 60\")\n    print(\"Linha 61\")\n    print(\"Linha 62 - Estouro do limite\")\n    return True",
+        "suggestion_line": 2,
+        "suggestion_source": "TEMPLATE",
+        "suggestion_action": "Remover linha",
+        "hash": "3b164c4eb5e40b4a964e31a447e618b6"
+      },
+      {
+        "severity": "WARNING",
+        "category": "DEADCODE",
+        "message": "'re' imported but unused",
+        "file": "tests/dojo_ultimate.py",
+        "line": 3,
+        "suggestion_content": "import os\nimport sys\nimport hashlib\nimport subprocess\n\n# [STYLE] Falta docstring do m\u00f3dulo aqui\n\ndef funcao_caotica():\n    # [STYLE] Falta docstring da fun\u00e7\u00e3o\n    \n    # [QA] Lembretes\n    # TODO: Refatorar esta fun\u00e7\u00e3o inteira\n    # FIXME: Corrigir vazamento de mem\u00f3ria\n    # HACK: Gambiarra tempor\u00e1ria\n    \n    # [DEADCODE] Redefini\u00e7\u00e3o in\u00fatil\n    x = 10\n    x = 20\n    \n    # [STYLE] F-string sem placeholder\n    print(f\"Ol\u00e1 mundo\")\n    \n    # [RUNTIME-RISK] Nome indefinido (Abdu\u00e7\u00e3o deve sugerir 'import json')\n    dados = json.dumps({\"a\": 1})\n    \n    # [SECURITY] Eval (Execu\u00e7\u00e3o de c\u00f3digo arbitr\u00e1rio)\n    eval(\"print('perigo')\")\n    \n    # [SECURITY] Senha Hardcoded\n    password = \"secret_123\"\n    \n    # [SECURITY] Hash fraco (MD5)\n    h = hashlib.md5(b\"texto\")\n    \n    # [SECURITY] Shell Injection\n    cmd = \"ls -la\"\n    subprocess.run(cmd, shell=True)\n    \n    # [MPoT] Uso de Global\n    global estado_global\n    estado_global = 1\n    \n    return x\n\ndef funcao_gigante_mpt_regra_4():\n    \"\"\"Esta fun\u00e7\u00e3o testa a regra de coes\u00e3o (>60 linhas).\"\"\"\n    print(\"Linha 1\")\n    print(\"Linha 2\")\n    print(\"Linha 3\")\n    print(\"Linha 4\")\n    print(\"Linha 5\")\n    print(\"Linha 6\")\n    print(\"Linha 7\")\n    print(\"Linha 8\")\n    print(\"Linha 9\")\n    print(\"Linha 10\")\n    print(\"Linha 11\")\n    print(\"Linha 12\")\n    print(\"Linha 13\")\n    print(\"Linha 14\")\n    print(\"Linha 15\")\n    print(\"Linha 16\")\n    print(\"Linha 17\")\n    print(\"Linha 18\")\n    print(\"Linha 19\")\n    print(\"Linha 20\")\n    print(\"Linha 21\")\n    print(\"Linha 22\")\n    print(\"Linha 23\")\n    print(\"Linha 24\")\n    print(\"Linha 25\")\n    print(\"Linha 26\")\n    print(\"Linha 27\")\n    print(\"Linha 28\")\n    print(\"Linha 29\")\n    print(\"Linha 30\")\n    print(\"Linha 31\")\n    print(\"Linha 32\")\n    print(\"Linha 33\")\n    print(\"Linha 34\")\n    print(\"Linha 35\")\n    print(\"Linha 36\")\n    print(\"Linha 37\")\n    print(\"Linha 38\")\n    print(\"Linha 39\")\n    print(\"Linha 40\")\n    print(\"Linha 41\")\n    print(\"Linha 42\")\n    print(\"Linha 43\")\n    print(\"Linha 44\")\n    print(\"Linha 45\")\n    print(\"Linha 46\")\n    print(\"Linha 47\")\n    print(\"Linha 48\")\n    print(\"Linha 49\")\n    print(\"Linha 50\")\n    print(\"Linha 51\")\n    print(\"Linha 52\")\n    print(\"Linha 53\")\n    print(\"Linha 54\")\n    print(\"Linha 55\")\n    print(\"Linha 56\")\n    print(\"Linha 57\")\n    print(\"Linha 58\")\n    print(\"Linha 59\")\n    print(\"Linha 60\")\n    print(\"Linha 61\")\n    print(\"Linha 62 - Estouro do limite\")\n    return True",
+        "suggestion_line": 3,
+        "suggestion_source": "TEMPLATE",
+        "suggestion_action": "Remover linha",
+        "hash": "d1ade14b9e886eee33508343e2670493"
+      },
+      {
+        "severity": "WARNING",
+        "category": "STYLE",
+        "message": "f-string is missing placeholders",
+        "file": "tests/dojo_ultimate.py",
+        "line": 22,
+        "suggestion_content": "import os\nimport sys\nimport re  # [DEADCODE] Import n\u00e3o usado\nimport hashlib\nimport subprocess\n\n# [STYLE] Falta docstring do m\u00f3dulo aqui\n\ndef funcao_caotica():\n    # [STYLE] Falta docstring da fun\u00e7\u00e3o\n    \n    # [QA] Lembretes\n    # TODO: Refatorar esta fun\u00e7\u00e3o inteira\n    # FIXME: Corrigir vazamento de mem\u00f3ria\n    # HACK: Gambiarra tempor\u00e1ria\n    \n    # [DEADCODE] Redefini\u00e7\u00e3o in\u00fatil\n    x = 10\n    x = 20\n    \n    # [STYLE] F-string sem placeholder\n    print(\"Ol\u00e1 mundo\")\n    \n    # [RUNTIME-RISK] Nome indefinido (Abdu\u00e7\u00e3o deve sugerir 'import json')\n    dados = json.dumps({\"a\": 1})\n    \n    # [SECURITY] Eval (Execu\u00e7\u00e3o de c\u00f3digo arbitr\u00e1rio)\n    eval(\"print('perigo')\")\n    \n    # [SECURITY] Senha Hardcoded\n    password = \"secret_123\"\n    \n    # [SECURITY] Hash fraco (MD5)\n    h = hashlib.md5(b\"texto\")\n    \n    # [SECURITY] Shell Injection\n    cmd = \"ls -la\"\n    subprocess.run(cmd, shell=True)\n    \n    # [MPoT] Uso de Global\n    global estado_global\n    estado_global = 1\n    \n    return x\n\ndef funcao_gigante_mpt_regra_4():\n    \"\"\"Esta fun\u00e7\u00e3o testa a regra de coes\u00e3o (>60 linhas).\"\"\"\n    print(\"Linha 1\")\n    print(\"Linha 2\")\n    print(\"Linha 3\")\n    print(\"Linha 4\")\n    print(\"Linha 5\")\n    print(\"Linha 6\")\n    print(\"Linha 7\")\n    print(\"Linha 8\")\n    print(\"Linha 9\")\n    print(\"Linha 10\")\n    print(\"Linha 11\")\n    print(\"Linha 12\")\n    print(\"Linha 13\")\n    print(\"Linha 14\")\n    print(\"Linha 15\")\n    print(\"Linha 16\")\n    print(\"Linha 17\")\n    print(\"Linha 18\")\n    print(\"Linha 19\")\n    print(\"Linha 20\")\n    print(\"Linha 21\")\n    print(\"Linha 22\")\n    print(\"Linha 23\")\n    print(\"Linha 24\")\n    print(\"Linha 25\")\n    print(\"Linha 26\")\n    print(\"Linha 27\")\n    print(\"Linha 28\")\n    print(\"Linha 29\")\n    print(\"Linha 30\")\n    print(\"Linha 31\")\n    print(\"Linha 32\")\n    print(\"Linha 33\")\n    print(\"Linha 34\")\n    print(\"Linha 35\")\n    print(\"Linha 36\")\n    print(\"Linha 37\")\n    print(\"Linha 38\")\n    print(\"Linha 39\")\n    print(\"Linha 40\")\n    print(\"Linha 41\")\n    print(\"Linha 42\")\n    print(\"Linha 43\")\n    print(\"Linha 44\")\n    print(\"Linha 45\")\n    print(\"Linha 46\")\n    print(\"Linha 47\")\n    print(\"Linha 48\")\n    print(\"Linha 49\")\n    print(\"Linha 50\")\n    print(\"Linha 51\")\n    print(\"Linha 52\")\n    print(\"Linha 53\")\n    print(\"Linha 54\")\n    print(\"Linha 55\")\n    print(\"Linha 56\")\n    print(\"Linha 57\")\n    print(\"Linha 58\")\n    print(\"Linha 59\")\n    print(\"Linha 60\")\n    print(\"Linha 61\")\n    print(\"Linha 62 - Estouro do limite\")\n    return True",
+        "suggestion_line": 22,
+        "suggestion_source": "TEMPLATE",
+        "suggestion_action": "Remover prefixo 'f'",
+        "hash": "5a110fefd74a46937c67f9cd305a63cb"
+      },
+      {
+        "severity": "WARNING",
+        "category": "RUNTIME-RISK",
+        "message": "undefined name 'json'",
+        "file": "tests/dojo_ultimate.py",
+        "line": 25,
+        "missing_import": "json",
+        "import_suggestion": "import json",
+        "dependency_type": "MISSING_MODULE_IMPORT",
+        "hash": "3bb5437044fa3efdf359aa9a214260f5"
+      },
+      {
+        "severity": "WARNING",
+        "category": "STYLE",
+        "message": "local variable 'dados' is assigned to but never used",
+        "file": "tests/dojo_ultimate.py",
+        "line": 25,
+        "suggestion_content": "import os\nimport sys\nimport re  # [DEADCODE] Import n\u00e3o usado\nimport hashlib\nimport subprocess\n\n# [STYLE] Falta docstring do m\u00f3dulo aqui\n\ndef funcao_caotica():\n    # [STYLE] Falta docstring da fun\u00e7\u00e3o\n    \n    # [QA] Lembretes\n    # TODO: Refatorar esta fun\u00e7\u00e3o inteira\n    # FIXME: Corrigir vazamento de mem\u00f3ria\n    # HACK: Gambiarra tempor\u00e1ria\n    \n    # [DEADCODE] Redefini\u00e7\u00e3o in\u00fatil\n    x = 10\n    x = 20\n    \n    # [STYLE] F-string sem placeholder\n    print(f\"Ol\u00e1 mundo\")\n    \n    # [RUNTIME-RISK] Nome indefinido (Abdu\u00e7\u00e3o deve sugerir 'import json')\n    _ = json.dumps({\"a\": 1})\n    \n    # [SECURITY] Eval (Execu\u00e7\u00e3o de c\u00f3digo arbitr\u00e1rio)\n    eval(\"print('perigo')\")\n    \n    # [SECURITY] Senha Hardcoded\n    password = \"secret_123\"\n    \n    # [SECURITY] Hash fraco (MD5)\n    h = hashlib.md5(b\"texto\")\n    \n    # [SECURITY] Shell Injection\n    cmd = \"ls -la\"\n    subprocess.run(cmd, shell=True)\n    \n    # [MPoT] Uso de Global\n    global estado_global\n    estado_global = 1\n    \n    return x\n\ndef funcao_gigante_mpt_regra_4():\n    \"\"\"Esta fun\u00e7\u00e3o testa a regra de coes\u00e3o (>60 linhas).\"\"\"\n    print(\"Linha 1\")\n    print(\"Linha 2\")\n    print(\"Linha 3\")\n    print(\"Linha 4\")\n    print(\"Linha 5\")\n    print(\"Linha 6\")\n    print(\"Linha 7\")\n    print(\"Linha 8\")\n    print(\"Linha 9\")\n    print(\"Linha 10\")\n    print(\"Linha 11\")\n    print(\"Linha 12\")\n    print(\"Linha 13\")\n    print(\"Linha 14\")\n    print(\"Linha 15\")\n    print(\"Linha 16\")\n    print(\"Linha 17\")\n    print(\"Linha 18\")\n    print(\"Linha 19\")\n    print(\"Linha 20\")\n    print(\"Linha 21\")\n    print(\"Linha 22\")\n    print(\"Linha 23\")\n    print(\"Linha 24\")\n    print(\"Linha 25\")\n    print(\"Linha 26\")\n    print(\"Linha 27\")\n    print(\"Linha 28\")\n    print(\"Linha 29\")\n    print(\"Linha 30\")\n    print(\"Linha 31\")\n    print(\"Linha 32\")\n    print(\"Linha 33\")\n    print(\"Linha 34\")\n    print(\"Linha 35\")\n    print(\"Linha 36\")\n    print(\"Linha 37\")\n    print(\"Linha 38\")\n    print(\"Linha 39\")\n    print(\"Linha 40\")\n    print(\"Linha 41\")\n    print(\"Linha 42\")\n    print(\"Linha 43\")\n    print(\"Linha 44\")\n    print(\"Linha 45\")\n    print(\"Linha 46\")\n    print(\"Linha 47\")\n    print(\"Linha 48\")\n    print(\"Linha 49\")\n    print(\"Linha 50\")\n    print(\"Linha 51\")\n    print(\"Linha 52\")\n    print(\"Linha 53\")\n    print(\"Linha 54\")\n    print(\"Linha 55\")\n    print(\"Linha 56\")\n    print(\"Linha 57\")\n    print(\"Linha 58\")\n    print(\"Linha 59\")\n    print(\"Linha 60\")\n    print(\"Linha 61\")\n    print(\"Linha 62 - Estouro do limite\")\n    return True",
+        "suggestion_line": 25,
+        "suggestion_source": "TEMPLATE",
+        "suggestion_action": "Substituir 'dados' por '_'",
+        "hash": "ccc402160c4120573d3a901bb7b24253"
+      },
+      {
+        "severity": "WARNING",
+        "category": "STYLE",
+        "message": "local variable 'password' is assigned to but never used",
+        "file": "tests/dojo_ultimate.py",
+        "line": 31,
+        "suggestion_content": "import os\nimport sys\nimport re  # [DEADCODE] Import n\u00e3o usado\nimport hashlib\nimport subprocess\n\n# [STYLE] Falta docstring do m\u00f3dulo aqui\n\ndef funcao_caotica():\n    # [STYLE] Falta docstring da fun\u00e7\u00e3o\n    \n    # [QA] Lembretes\n    # TODO: Refatorar esta fun\u00e7\u00e3o inteira\n    # FIXME: Corrigir vazamento de mem\u00f3ria\n    # HACK: Gambiarra tempor\u00e1ria\n    \n    # [DEADCODE] Redefini\u00e7\u00e3o in\u00fatil\n    x = 10\n    x = 20\n    \n    # [STYLE] F-string sem placeholder\n    print(f\"Ol\u00e1 mundo\")\n    \n    # [RUNTIME-RISK] Nome indefinido (Abdu\u00e7\u00e3o deve sugerir 'import json')\n    dados = json.dumps({\"a\": 1})\n    \n    # [SECURITY] Eval (Execu\u00e7\u00e3o de c\u00f3digo arbitr\u00e1rio)\n    eval(\"print('perigo')\")\n    \n    # [SECURITY] Senha Hardcoded\n    _ = \"secret_123\"\n    \n    # [SECURITY] Hash fraco (MD5)\n    h = hashlib.md5(b\"texto\")\n    \n    # [SECURITY] Shell Injection\n    cmd = \"ls -la\"\n    subprocess.run(cmd, shell=True)\n    \n    # [MPoT] Uso de Global\n    global estado_global\n    estado_global = 1\n    \n    return x\n\ndef funcao_gigante_mpt_regra_4():\n    \"\"\"Esta fun\u00e7\u00e3o testa a regra de coes\u00e3o (>60 linhas).\"\"\"\n    print(\"Linha 1\")\n    print(\"Linha 2\")\n    print(\"Linha 3\")\n    print(\"Linha 4\")\n    print(\"Linha 5\")\n    print(\"Linha 6\")\n    print(\"Linha 7\")\n    print(\"Linha 8\")\n    print(\"Linha 9\")\n    print(\"Linha 10\")\n    print(\"Linha 11\")\n    print(\"Linha 12\")\n    print(\"Linha 13\")\n    print(\"Linha 14\")\n    print(\"Linha 15\")\n    print(\"Linha 16\")\n    print(\"Linha 17\")\n    print(\"Linha 18\")\n    print(\"Linha 19\")\n    print(\"Linha 20\")\n    print(\"Linha 21\")\n    print(\"Linha 22\")\n    print(\"Linha 23\")\n    print(\"Linha 24\")\n    print(\"Linha 25\")\n    print(\"Linha 26\")\n    print(\"Linha 27\")\n    print(\"Linha 28\")\n    print(\"Linha 29\")\n    print(\"Linha 30\")\n    print(\"Linha 31\")\n    print(\"Linha 32\")\n    print(\"Linha 33\")\n    print(\"Linha 34\")\n    print(\"Linha 35\")\n    print(\"Linha 36\")\n    print(\"Linha 37\")\n    print(\"Linha 38\")\n    print(\"Linha 39\")\n    print(\"Linha 40\")\n    print(\"Linha 41\")\n    print(\"Linha 42\")\n    print(\"Linha 43\")\n    print(\"Linha 44\")\n    print(\"Linha 45\")\n    print(\"Linha 46\")\n    print(\"Linha 47\")\n    print(\"Linha 48\")\n    print(\"Linha 49\")\n    print(\"Linha 50\")\n    print(\"Linha 51\")\n    print(\"Linha 52\")\n    print(\"Linha 53\")\n    print(\"Linha 54\")\n    print(\"Linha 55\")\n    print(\"Linha 56\")\n    print(\"Linha 57\")\n    print(\"Linha 58\")\n    print(\"Linha 59\")\n    print(\"Linha 60\")\n    print(\"Linha 61\")\n    print(\"Linha 62 - Estouro do limite\")\n    return True",
+        "suggestion_line": 31,
+        "suggestion_source": "TEMPLATE",
+        "suggestion_action": "Substituir 'password' por '_'",
+        "hash": "bb55560b979edc2bec42f54105102bc0"
+      },
+      {
+        "severity": "WARNING",
+        "category": "STYLE",
+        "message": "local variable 'h' is assigned to but never used",
+        "file": "tests/dojo_ultimate.py",
+        "line": 34,
+        "suggestion_content": "import os\nimport sys\nimport re  # [DEADCODE] Import n\u00e3o usado\nimport hashlib\nimport subprocess\n\n# [STYLE] Falta docstring do m\u00f3dulo aqui\n\ndef funcao_caotica():\n    # [STYLE] Falta docstring da fun\u00e7\u00e3o\n    \n    # [QA] Lembretes\n    # TODO: Refatorar esta fun\u00e7\u00e3o inteira\n    # FIXME: Corrigir vazamento de mem\u00f3ria\n    # HACK: Gambiarra tempor\u00e1ria\n    \n    # [DEADCODE] Redefini\u00e7\u00e3o in\u00fatil\n    x = 10\n    x = 20\n    \n    # [STYLE] F-string sem placeholder\n    print(f\"Ol\u00e1 mundo\")\n    \n    # [RUNTIME-RISK] Nome indefinido (Abdu\u00e7\u00e3o deve sugerir 'import json')\n    dados = json.dumps({\"a\": 1})\n    \n    # [SECURITY] Eval (Execu\u00e7\u00e3o de c\u00f3digo arbitr\u00e1rio)\n    eval(\"print('perigo')\")\n    \n    # [SECURITY] Senha Hardcoded\n    password = \"secret_123\"\n    \n    # [SECURITY] Hash fraco (MD5)\n    _ = hashlib.md5(b\"texto\")\n    \n    # [SECURITY] Shell Injection\n    cmd = \"ls -la\"\n    subprocess.run(cmd, shell=True)\n    \n    # [MPoT] Uso de Global\n    global estado_global\n    estado_global = 1\n    \n    return x\n\ndef funcao_gigante_mpt_regra_4():\n    \"\"\"Esta fun\u00e7\u00e3o testa a regra de coes\u00e3o (>60 linhas).\"\"\"\n    print(\"Linha 1\")\n    print(\"Linha 2\")\n    print(\"Linha 3\")\n    print(\"Linha 4\")\n    print(\"Linha 5\")\n    print(\"Linha 6\")\n    print(\"Linha 7\")\n    print(\"Linha 8\")\n    print(\"Linha 9\")\n    print(\"Linha 10\")\n    print(\"Linha 11\")\n    print(\"Linha 12\")\n    print(\"Linha 13\")\n    print(\"Linha 14\")\n    print(\"Linha 15\")\n    print(\"Linha 16\")\n    print(\"Linha 17\")\n    print(\"Linha 18\")\n    print(\"Linha 19\")\n    print(\"Linha 20\")\n    print(\"Linha 21\")\n    print(\"Linha 22\")\n    print(\"Linha 23\")\n    print(\"Linha 24\")\n    print(\"Linha 25\")\n    print(\"Linha 26\")\n    print(\"Linha 27\")\n    print(\"Linha 28\")\n    print(\"Linha 29\")\n    print(\"Linha 30\")\n    print(\"Linha 31\")\n    print(\"Linha 32\")\n    print(\"Linha 33\")\n    print(\"Linha 34\")\n    print(\"Linha 35\")\n    print(\"Linha 36\")\n    print(\"Linha 37\")\n    print(\"Linha 38\")\n    print(\"Linha 39\")\n    print(\"Linha 40\")\n    print(\"Linha 41\")\n    print(\"Linha 42\")\n    print(\"Linha 43\")\n    print(\"Linha 44\")\n    print(\"Linha 45\")\n    print(\"Linha 46\")\n    print(\"Linha 47\")\n    print(\"Linha 48\")\n    print(\"Linha 49\")\n    print(\"Linha 50\")\n    print(\"Linha 51\")\n    print(\"Linha 52\")\n    print(\"Linha 53\")\n    print(\"Linha 54\")\n    print(\"Linha 55\")\n    print(\"Linha 56\")\n    print(\"Linha 57\")\n    print(\"Linha 58\")\n    print(\"Linha 59\")\n    print(\"Linha 60\")\n    print(\"Linha 61\")\n    print(\"Linha 62 - Estouro do limite\")\n    return True",
+        "suggestion_line": 34,
+        "suggestion_source": "TEMPLATE",
+        "suggestion_action": "Substituir 'h' por '_'",
+        "hash": "987e12f11d11eb93bb961401eb5115d9"
+      },
+      {
+        "severity": "CRITICAL",
+        "category": "SECURITY",
+        "message": "Uso de 'eval' detectado. Alto risco de seguran\u00e7a.",
+        "line": 28,
+        "file": "tests/dojo_ultimate.py",
+        "hash": "234070d26029bd08a1641fe854fbc54d"
+      }
+    ]
+  },
+  "src\\ui\\game_layout.py": {
+    "hash": "acec8e97f5b65d364f289fe63b9bd410e898e6ac0a38c2da7a8e332cd15ddfe6",
+    "findings": []
+  },
+  "src\\ui\\status_panel.py": {
+    "hash": "f56fb7ddb6f1ff7fdaf99c58de287e1d19dc6f5fb19d5c3eae52dc5b842249f0",
+    "findings": []
+  },
+  "src\\ui\\story_log.py": {
+    "hash": "6bb1582a0b430dfe59b81de2e269f01fa92921c5948c5e4339b8ff1fb9615d9f",
+    "findings": []
+  },
+  "levels.json": {
+    "hash": "b1dd6a79c09b581e22e7fc1cb93828ef583b800bf6eb06254321fcf58cb0d41a",
+    "findings": []
+  },
+  "src\\engine\\inventory.py": {
+    "hash": "d21024e0f5e4ee3adad8d5a5a332e9a18581889e74f3cf0674c63437ea177400",
+    "findings": []
+  }
+}

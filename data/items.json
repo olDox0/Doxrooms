@@ -1,0 +1,34 @@
+{
+  "agua_amendoa": {
+    "name": "Água de Amêndoa",
+    "desc": "Uma garrafa de vidro com um líquido doce. Cheira a baunilha e água de rosas.",
+    "type": "consumivel",
+    "effects": {"sanidade": 15, "sede": 30},
+    "rarity": 0.3
+  },
+  "barra_proteina": {
+    "name": "Barra de Proteína",
+    "desc": "Dura como pedra, mas nutritiva.",
+    "type": "consumivel",
+    "effects": {"fome": 25, "saude": 5},
+    "rarity": 0.5
+  },
+  "fita_isolante": {
+    "name": "Fita Isolante",
+    "desc": "Útil para prender coisas ou silenciar ruídos.",
+    "type": "material",
+    "rarity": 0.6
+  },
+  "lanterna_quebrada": {
+    "name": "Lanterna Barata",
+    "desc": "Precisa de pilhas. O vidro está rachado.",
+    "type": "ferramenta",
+    "rarity": 0.2
+  },
+  "sucata_metal": {
+    "name": "Pedaço de Metal",
+    "desc": "Pode ser afiado ou usado em construções.",
+    "type": "material",
+    "rarity": 0.8
+  }
+}

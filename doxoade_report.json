@@ -1,0 +1,278 @@
+{
+    "report_generated_at_utc": "2025-12-11T00:07:34.680099+00:00",
+    "doxoade_version": "37.2 Alfa (Hardening)",
+    "project_path": "C:\\Users\\olDox222\\Documents\\A20251122\\DOSSIER\\Altonomo\\Projetos_E_Programas\\Projeto Doxrooms\\Doxrooms",
+    "telemetry": {
+        "directory_tree": "./\n    .gitignore\n    main.py\n    pyproject.toml\n    requirements.txt\n    .doxoade_cache/\n        check_cache.json\n    data/\n        entities.json\n        items.json\n        levels.json\n    saves/\n    src/\n        main.py\n        components/\n        engine/\n            combat.py\n            crafting.py\n            inventory.py\n            player.py\n            world.py\n        ui/\n            components.py\n            game_layout.py\n            layout.py\n            status_panel.py\n            story_log.py\n            styles.py\n    tests/",
+        "filesystem": [
+            {
+                "path": ".gitignore",
+                "size_bytes": 92,
+                "created_at_utc": "2025-12-09T21:59:57.796028+00:00",
+                "modified_at_utc": "2025-12-09T21:59:57.796028+00:00",
+                "encoding": "ascii"
+            },
+            {
+                "path": "main.py",
+                "size_bytes": 10518,
+                "created_at_utc": "2025-12-09T21:59:57.796028+00:00",
+                "modified_at_utc": "2025-12-11T00:06:28.755511+00:00",
+                "encoding": "utf-8",
+                "functions": []
+            },
+            {
+                "path": "pyproject.toml",
+                "size_bytes": 101,
+                "created_at_utc": "2025-12-10T02:29:10.448485+00:00",
+                "modified_at_utc": "2025-12-10T02:29:10.448485+00:00",
+                "encoding": "ascii"
+            },
+            {
+                "path": "requirements.txt",
+                "size_bytes": 745,
+                "created_at_utc": "2025-12-09T21:59:57.796028+00:00",
+                "modified_at_utc": "2025-12-10T16:58:35.300120+00:00",
+                "encoding": "ascii"
+            },
+            {
+                "path": ".doxoade_cache/check_cache.json",
+                "size_bytes": 25871,
+                "created_at_utc": "2025-12-09T23:05:52.984759+00:00",
+                "modified_at_utc": "2025-12-10T23:53:15.485448+00:00",
+                "encoding": "ascii"
+            },
+            {
+                "path": "data/entities.json",
+                "size_bytes": 0,
+                "created_at_utc": "2025-12-09T22:01:22.206934+00:00",
+                "modified_at_utc": "2025-12-09T22:01:22.206934+00:00",
+                "encoding": "empty"
+            },
+            {
+                "path": "data/items.json",
+                "size_bytes": 948,
+                "created_at_utc": "2025-12-09T22:01:22.206934+00:00",
+                "modified_at_utc": "2025-12-10T23:56:52.761135+00:00",
+                "encoding": "utf-8"
+            },
+            {
+                "path": "data/levels.json",
+                "size_bytes": 1452,
+                "created_at_utc": "2025-12-09T22:01:22.206934+00:00",
+                "modified_at_utc": "2025-12-10T23:40:29.612301+00:00",
+                "encoding": "utf-8"
+            },
+            {
+                "path": "src/main.py",
+                "size_bytes": 0,
+                "created_at_utc": "2025-12-09T22:04:39.845416+00:00",
+                "modified_at_utc": "2025-12-09T22:04:39.845416+00:00",
+                "encoding": "empty",
+                "functions": []
+            },
+            {
+                "path": "src/engine/combat.py",
+                "size_bytes": 0,
+                "created_at_utc": "2025-12-09T22:03:06.979584+00:00",
+                "modified_at_utc": "2025-12-09T22:03:06.979584+00:00",
+                "encoding": "empty",
+                "functions": []
+            },
+            {
+                "path": "src/engine/crafting.py",
+                "size_bytes": 0,
+                "created_at_utc": "2025-12-09T22:03:06.979584+00:00",
+                "modified_at_utc": "2025-12-09T22:03:06.979584+00:00",
+                "encoding": "empty",
+                "functions": []
+            },
+            {
+                "path": "src/engine/inventory.py",
+                "size_bytes": 1472,
+                "created_at_utc": "2025-12-10T23:57:55.155728+00:00",
+                "modified_at_utc": "2025-12-10T23:58:02.719272+00:00",
+                "encoding": "utf-8",
+                "functions": [
+                    {
+                        "name": "__init__",
+                        "line": 6
+                    },
+                    {
+                        "name": "_load_items",
+                        "line": 9
+                    },
+                    {
+                        "name": "get_item_details",
+                        "line": 15
+                    },
+                    {
+                        "name": "generate_random_loot",
+                        "line": 19
+                    },
+                    {
+                        "name": "__init__",
+                        "line": 32
+                    },
+                    {
+                        "name": "add_item",
+                        "line": 36
+                    },
+                    {
+                        "name": "remove_item",
+                        "line": 42
+                    }
+                ]
+            },
+            {
+                "path": "src/engine/player.py",
+                "size_bytes": 929,
+                "created_at_utc": "2025-12-09T22:03:06.963956+00:00",
+                "modified_at_utc": "2025-12-10T23:59:37.443162+00:00",
+                "encoding": "utf-8",
+                "functions": [
+                    {
+                        "name": "__init__",
+                        "line": 6
+                    },
+                    {
+                        "name": "sanidade",
+                        "line": 19
+                    },
+                    {
+                        "name": "sanidade",
+                        "line": 23
+                    },
+                    {
+                        "name": "_check_sanity_states",
+                        "line": 27
+                    }
+                ]
+            },
+            {
+                "path": "src/engine/world.py",
+                "size_bytes": 1724,
+                "created_at_utc": "2025-12-09T22:03:06.963956+00:00",
+                "modified_at_utc": "2025-12-10T23:41:23.046674+00:00",
+                "encoding": "utf-8",
+                "functions": [
+                    {
+                        "name": "__init__",
+                        "line": 5
+                    },
+                    {
+                        "name": "_load_data",
+                        "line": 10
+                    },
+                    {
+                        "name": "get_current_node",
+                        "line": 19
+                    },
+                    {
+                        "name": "try_move",
+                        "line": 23
+                    },
+                    {
+                        "name": "get_available_exits",
+                        "line": 41
+                    }
+                ]
+            },
+            {
+                "path": "src/ui/components.py",
+                "size_bytes": 0,
+                "created_at_utc": "2025-12-09T22:04:15.407998+00:00",
+                "modified_at_utc": "2025-12-09T22:04:15.407998+00:00",
+                "encoding": "empty",
+                "functions": []
+            },
+            {
+                "path": "src/ui/game_layout.py",
+                "size_bytes": 539,
+                "created_at_utc": "2025-12-10T23:22:58.032706+00:00",
+                "modified_at_utc": "2025-12-10T23:22:58.032706+00:00",
+                "encoding": "utf-8",
+                "functions": [
+                    {
+                        "name": "create",
+                        "line": 20
+                    },
+                    {
+                        "name": "__init__",
+                        "line": 8
+                    },
+                    {
+                        "name": "build",
+                        "line": 11
+                    },
+                    {
+                        "name": "on_action",
+                        "line": 17
+                    }
+                ]
+            },
+            {
+                "path": "src/ui/layout.py",
+                "size_bytes": 0,
+                "created_at_utc": "2025-12-09T22:04:15.392376+00:00",
+                "modified_at_utc": "2025-12-09T22:04:15.392376+00:00",
+                "encoding": "empty",
+                "functions": []
+            },
+            {
+                "path": "src/ui/status_panel.py",
+                "size_bytes": 544,
+                "created_at_utc": "2025-12-10T23:23:08.439672+00:00",
+                "modified_at_utc": "2025-12-10T23:23:08.439672+00:00",
+                "encoding": "utf-8",
+                "functions": [
+                    {
+                        "name": "create",
+                        "line": 20
+                    },
+                    {
+                        "name": "__init__",
+                        "line": 8
+                    },
+                    {
+                        "name": "build",
+                        "line": 11
+                    },
+                    {
+                        "name": "on_action",
+                        "line": 17
+                    }
+                ]
+            },
+            {
+                "path": "src/ui/story_log.py",
+                "size_bytes": 2582,
+                "created_at_utc": "2025-12-10T23:23:03.798155+00:00",
+                "modified_at_utc": "2025-12-10T23:25:25.838960+00:00",
+                "encoding": "utf-8",
+                "functions": [
+                    {
+                        "name": "__init__",
+                        "line": 5
+                    },
+                    {
+                        "name": "clear",
+                        "line": 62
+                    }
+                ]
+            },
+            {
+                "path": "src/ui/styles.py",
+                "size_bytes": 941,
+                "created_at_utc": "2025-12-09T22:04:15.392376+00:00",
+                "modified_at_utc": "2025-12-09T22:50:53.443444+00:00",
+                "encoding": "utf-8",
+                "functions": [
+                    {
+                        "name": "get_visual_theme",
+                        "line": 3
+                    }
+                ]
+            }
+        ]
+    }
+}

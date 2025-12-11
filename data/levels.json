@@ -1,0 +1,43 @@
+{
+  "start_node": "lobby_start",
+  "nodes": {
+    "lobby_start": {
+      "name": "Nível 0 - Zona Inicial",
+      "description": "O zumbido das luzes fluorescentes é ensurdecedor. O cheiro de carpete velho e úmido preenche o ar. Não há nada aqui além de paredes amarelas infinitas.",
+      "visual_theme": "level0",
+      "exits": {
+        "norte": "lobby_corridor",
+        "leste": "lobby_deadend"
+      },
+      "loot_chance": 0.1
+    },
+    "lobby_corridor": {
+      "name": "Nível 0 - Corredor Longo",
+      "description": "Um corredor que parece se estender para sempre. Algumas luzes no teto estão piscando de forma irregular.",
+      "visual_theme": "level0_flicker",
+      "exits": {
+        "sul": "lobby_start",
+        "oeste": "manila_room"
+      },
+      "loot_chance": 0.3
+    },
+    "lobby_deadend": {
+      "name": "Beco Sem Saída",
+      "description": "Você chega a uma parede sólida. Há marcas de unhas no papel de parede. Alguém esteve desesperado aqui.",
+      "visual_theme": "level0",
+      "exits": {
+        "oeste": "lobby_start"
+      },
+      "loot_chance": 0.5
+    },
+    "manila_room": {
+      "name": "Sala Manila",
+      "description": "O chão muda de carpete para madeira podre por alguns metros. A temperatura cai drasticamente.",
+      "visual_theme": "darkness",
+      "exits": {
+        "leste": "lobby_corridor"
+      },
+      "loot_chance": 0.0
+    }
+  }
+}
